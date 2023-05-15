@@ -22,10 +22,10 @@ define("PUBLIC_PATH", APP_ROOT . "/public");
 defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR,false);
 
 defined('PUBLIC_ROOT') ? null:
-define ('PUBLIC_ROOT','complete_project'.DS.'public');
+define ('PUBLIC_ROOT','getinnotized_project'.DS.'public');
 
 defined('PRIVATE_ROOT') ? null:
-define ('PRIVATE_ROOT','complete_project'.DS.'public');
+define ('PRIVATE_ROOT','getinnotized_project'.DS.'public');
 
 // defined('BASE_URL') ? null:
 // define ('BASE_URL','http://localhost/getinnotized_project');
@@ -33,7 +33,7 @@ defined('BASE_URL') ? null:
 define ('BASE_URL','http://localhost:8080/getinnotized_project');
 
 
-//to be defined later
+//ideally used for assets files in the backend.
 defined('LIB_PATH') ? null : define('LIB_PATH',PUBLIC_ROOT.DS.'includes');
 
 session_start();
