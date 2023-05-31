@@ -297,7 +297,9 @@ const reformatPhoneNumber = phoneNumber =>{
   </div>
   </div>
 
-   </section>
+  
+
+</section>
 
    </main>
 

@@ -688,6 +688,14 @@ span.no_contacts_added {
   font-weight: normal;
 }
 
+strong.number {
+  color: #212121;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+
+
 .card {
     display: none;
     overflow: hidden;
